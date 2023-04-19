@@ -28,6 +28,7 @@ use crate::{
 /// });
 /// # });
 /// ```
+#[repr(C)]
 pub struct Ui {
     /// ID of this ui.
     /// Generated based on id of parent ui together with
